@@ -1,0 +1,36 @@
+body {
+    background: rgb(226, 208, 184);
+}
+
+#title, .subtitle, .post_title {
+    color: rgb(55, 55, 58);
+}
+
+.photo {
+    border: solid rgb(92, 122, 85);
+    border-radius: 50%;
+}
+
+.post_title {
+    font-size: 20px;
+    font-style: arial;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: rgb(209, 188, 188);
+    padding: 15px;
+    border: 3px solid rebeccapurple;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_img {
+    margin-bottom: 15px;
+}
