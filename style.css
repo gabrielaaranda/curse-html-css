@@ -1,6 +1,8 @@
 body {
     background: rgb(226, 208, 184);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -41,8 +43,20 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_img {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    color: rgb(104, 81, 139);
+    text-decoration: none;
 }
