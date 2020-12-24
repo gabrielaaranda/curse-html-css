@@ -1,5 +1,6 @@
 body {
     background: rgb(226, 208, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #title, .subtitle, .post_title {
@@ -9,6 +10,16 @@ body {
 .photo {
     border: solid rgb(92, 122, 85);
     border-radius: 50%;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: rgb(201, 61, 61);
 }
 
 .post_title {
@@ -29,6 +40,7 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_img {
